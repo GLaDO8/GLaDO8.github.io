@@ -1,0 +1,23 @@
+.icon_tray {
+  display: flex;
+  flex-direction: row;
+}
+.icon_tray > a {
+  display: block;
+  padding: 10px;
+}
+.icon_tray > a > .svgs {
+  width: 21px;
+  height: 20px;
+}
+.svgs {
+  transition: fill 0.3s ease-in-out;
+}
+.svgs path {
+  transition: fill 0.3s ease-in-out;
+  fill: #7f8ea3;
+}
+.svgs:hover path {
+  transition: fill 0.3s ease-in-out;
+  fill: #fff;
+}
