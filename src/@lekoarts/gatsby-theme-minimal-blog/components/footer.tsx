@@ -28,7 +28,7 @@ const Footer = () => {
           aria-label="Link to public Github repository"
           href="https://github.com/GLaDO8/GLaDO8.github.io"
         >
-          Code available on
+          Code available on Github.
         </Styled.a>
       </div>
     </footer>
