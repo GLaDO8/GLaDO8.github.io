@@ -10,14 +10,19 @@
   width: 21px;
   height: 20px;
 }
-.svgs {
-  transition: fill 0.3s ease-in-out;
-}
 .svgs path {
-  transition: fill 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   fill: #7f8ea3;
 }
 .svgs:hover path {
-  transition: fill 0.3s ease-in-out;
   fill: #fff;
+}
+@media screen and (max-width: 50%) {
+  .icon_tray > a > .svgs {
+    width: 16px;
+    height: 15px;
+  }
 }
