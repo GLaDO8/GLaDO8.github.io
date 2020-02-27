@@ -20,7 +20,7 @@
 .svgs:hover path {
   fill: #fff;
 }
-@media screen and (max-width: 50%) {
+@media screen and (max-width: 650px) {
   .icon_tray > a > .svgs {
     width: 16px;
     height: 15px;
