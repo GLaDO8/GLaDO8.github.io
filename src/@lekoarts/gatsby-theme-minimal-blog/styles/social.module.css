@@ -4,7 +4,8 @@
 }
 .icon_tray > a {
   display: block;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   /* padding-left: 10px; */
 }
 .icon_tray > a > .svgs {
@@ -33,5 +34,6 @@
   .icon_tray > a {
     padding-top: 10px;
     padding-right: 15px;
+    padding-left: 0px;
   }
 }
