@@ -11,7 +11,7 @@ module.exports = {
     // Can be used for e.g. JSONLD
     siteHeadline: `Shreyas Gupta`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteUrl: `https://shreyasgupta.me`,
     // Used for SEO
     siteDescription: `Personal website of Shreyas Gupta`,
     // Will be set on the <html /> tag
