@@ -4,7 +4,7 @@ const headingStyles = {
   h1: {
     ...tailwind.styles.h1,
     color: `heading`,
-    fontSize: [7, 8],
+    fontSize: [8, 9],
     mt: 2,
   },
   h2: {
@@ -26,7 +26,7 @@ const headingStyles = {
   },
   h5: {
     ...tailwind.styles.h4,
-    fontSize: [3, 4],
+    fontSize: [2, 3],
     mt: 0,
     mb: 0,
   },
