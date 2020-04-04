@@ -39,26 +39,16 @@ const headingStyles = {
 
 export default {
   ...tailwind,
-  initialColorMode: `dark`,
   useCustomProperties: true,
   colors: {
     ...tailwind.colors,
-    primary: tailwind.colors.purple[7],
-    secondary: `#5f6c80`,
-    toggleIcon: tailwind.colors.gray[8],
-    heading: tailwind.colors.black,
-    divide: tailwind.colors.gray[4],
-    modes: {
-      dark: {
-        text: tailwind.colors.gray[4],
-        primary: tailwind.colors.purple[5],
-        secondary: `#7f8ea3`,
-        toggleIcon: tailwind.colors.gray[4],
-        background: `#131720`,
-        heading: tailwind.colors.white,
-        divide: tailwind.colors.gray[8],
-      },
-    },
+    text: tailwind.colors.gray[4],
+    primary: tailwind.colors.purple[5],
+    secondary: `#7f8ea3`,
+    toggleIcon: tailwind.colors.gray[4],
+    background: `#131720`,
+    heading: tailwind.colors.white,
+    divide: tailwind.colors.gray[8],
   },
   fonts: {
     ...tailwind.fonts,
