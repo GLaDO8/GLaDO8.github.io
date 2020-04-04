@@ -37,7 +37,7 @@ const Post = ({ data: { post } }: PostProps) => (
       description={post.description ? post.description : post.excerpt}
       image={post.banner ? post.banner.GatsbyImageSharpFluid_withWebp_tracedSVG.resize.src : undefined}
     />
-    <Styled.h2>{post.title}</Styled.h2>
+    <Styled.h1>{post.title}</Styled.h1>
     <p sx={{ color: `secondary`, mt: 2, a: { color: `secondary` }, fontSize: [2, 2, 3] }}>
       {post.description}
     </p>
