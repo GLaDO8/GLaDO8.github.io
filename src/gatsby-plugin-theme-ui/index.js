@@ -71,6 +71,10 @@ export default {
       color: `text`,
       backgroundColor: `background`,
     },
+    Main: {
+      ...tailwind.styles.Main,
+      position: `relative`,
+    },
     p: {
       fontSize: [1, 1, 2],
       letterSpacing: `-0.003em`,
@@ -96,10 +100,10 @@ export default {
         "--x-height-multiplier": 0.35,
       },
     },
-    ...headingStyles,
-    Container: {
-      padding: [3, 4],
-    },
+    // ...headingStyles,
+    // Container: {
+    //   padding: [2, 3],
+    // },
     blockquote: {
       borderLeftColor: `primary`,
       borderLeftStyle: `solid`,

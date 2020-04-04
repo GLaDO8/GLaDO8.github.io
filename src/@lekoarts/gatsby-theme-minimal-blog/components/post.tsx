@@ -5,7 +5,6 @@ import React from "react"
 import Layout from "./layout"
 import ItemTags from "./item-tags"
 import SEO from "./seo"
-
 type PostProps = {
   data: {
     post: {
@@ -22,7 +21,7 @@ type PostProps = {
       excerpt: string
       timeToRead: number
       banner?: {
-        childImageSharp: {
+        GatsbyImageSharpFluid_withWebp_tracedSVG: {
           resize: {
             src: string
           }
@@ -31,16 +30,12 @@ type PostProps = {
     }
   }
 }
-
-const px = [`32px`, `16px`, `8px`, `4px`]
-const shadow = px.map(v => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
-
 const Post = ({ data: { post } }: PostProps) => (
   <Layout>
     <SEO
       title={post.title}
       description={post.description ? post.description : post.excerpt}
-      image={post.banner ? post.banner.childImageSharp.resize.src : undefined}
+      image={post.banner ? post.banner.GatsbyImageSharpFluid_withWebp_tracedSVG.resize.src : undefined}
     />
     <Styled.h2>{post.title}</Styled.h2>
     <p sx={{ color: `secondary`, mt: 2, a: { color: `secondary` }, fontSize: [2, 2, 3] }}>
@@ -58,9 +53,7 @@ const Post = ({ data: { post } }: PostProps) => (
       {` — `}
       <span>{post.timeToRead} min read</span>
     </p>
-    <section sx={{ my: 5, ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) } }}>
-      <MDXRenderer>{post.body}</MDXRenderer>
-    </section>
+    <MDXRenderer>{post.body}</MDXRenderer>
   </Layout>
 )
 
