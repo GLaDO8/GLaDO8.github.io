@@ -4,35 +4,35 @@ const headingStyles = {
   h1: {
     ...tailwind.styles.h1,
     color: `heading`,
-    fontSize: [5, 6, 7],
+    fontSize: [7, 8],
     mt: 2,
   },
   h2: {
     ...tailwind.styles.h2,
     color: `heading`,
-    fontSize: [4, 5, 6],
+    fontSize: [6, 7],
     mt: 2,
   },
   h3: {
     ...tailwind.styles.h3,
     color: `heading`,
-    fontSize: [3, 4, 5],
+    fontSize: [5, 6],
     mt: 3,
   },
   h4: {
     ...tailwind.styles.h4,
     color: `heading`,
-    fontSize: [2, 3, 4],
+    fontSize: [4, 5],
   },
   h5: {
     ...tailwind.styles.h5,
     color: `heading`,
-    fontSize: [1, 2, 3],
+    fontSize: [3, 4],
   },
   h6: {
     ...tailwind.styles.h6,
     color: `heading`,
-    fontSize: 1,
+    fontSize: 2,
     mb: 2,
   },
 }
@@ -66,7 +66,7 @@ export default {
       position: `relative`,
     },
     p: {
-      fontSize: [1, 1, 2],
+      fontSize: [2, 2],
       letterSpacing: `-0.003em`,
       lineHeight: `body`,
       "--baseline-multiplier": 0.179,
@@ -74,7 +74,7 @@ export default {
     },
     ul: {
       li: {
-        fontSize: [1, 1, 2],
+        fontSize: [2, 2],
         letterSpacing: `-0.003em`,
         lineHeight: `body`,
         "--baseline-multiplier": 0.179,
@@ -83,7 +83,7 @@ export default {
     },
     ol: {
       li: {
-        fontSize: [1, 1, 2],
+        fontSize: [2, 2],
         letterSpacing: `-0.003em`,
         lineHeight: `body`,
         "--baseline-multiplier": 0.179,
@@ -141,7 +141,7 @@ export default {
       },
     },
     listItem: {
-      fontSize: [1, 2, 3],
+      fontSize: [2, 2],
       color: `text`,
     },
   },
