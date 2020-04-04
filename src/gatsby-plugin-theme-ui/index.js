@@ -25,9 +25,10 @@ const headingStyles = {
     fontSize: [4, 5],
   },
   h5: {
-    ...tailwind.styles.h5,
-    color: `heading`,
+    ...tailwind.styles.h4,
     fontSize: [3, 4],
+    mt: 0,
+    mb: 0,
   },
   h6: {
     ...tailwind.styles.h6,
@@ -64,6 +65,12 @@ export default {
     Main: {
       ...tailwind.styles.Main,
       position: `relative`,
+    },
+    h5: {
+      color: `secondary`,
+      fontSize: [1, 2],
+      mt: 0,
+      mb: 0,
     },
     p: {
       fontSize: [2, 2],
