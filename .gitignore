@@ -5,6 +5,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+.DS_*
+**/*.backup.*
+**/*.back.*
+*.sublime*
+
+# design files
+psd
+thumb
+sketch
+
 # Runtime data
 pids
 *.pid
