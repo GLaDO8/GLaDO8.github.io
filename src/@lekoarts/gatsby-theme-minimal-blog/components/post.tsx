@@ -21,7 +21,7 @@ type PostProps = {
       excerpt: string
       timeToRead: number
       banner?: {
-        GatsbyImageSharpFluid_withWebp_tracedSVG: {
+        childImageSharp: {
           resize: {
             src: string
           }
@@ -35,7 +35,7 @@ const Post = ({ data: { post } }: PostProps) => (
     <SEO
       title={post.title}
       description={post.description ? post.description : post.excerpt}
-      image={post.banner ? post.banner.GatsbyImageSharpFluid_withWebp_tracedSVG.resize.src : undefined}
+      image={post.banner ? post.banner.childImageSharp.resize.src : undefined}
     />
     <Styled.h1>{post.title}</Styled.h1>
     <p sx={{ color: `secondary`, mt: 2, a: { color: `secondary` }, fontSize: [2, 2, 3] }}>
@@ -53,6 +53,13 @@ const Post = ({ data: { post } }: PostProps) => (
       {` — `}
       <span>{post.timeToRead} min read</span>
     </p>
+    <img src={post.banner.childImageSharp.resize.src} sx={{
+      position: `relative`,
+      maxHeight: `1200px`,
+      width: `100%`,
+      overflow: `hidden`,
+      margin: `0 auto`
+    }}></img>
     <MDXRenderer>{post.body}</MDXRenderer>
   </Layout>
 )
