@@ -13,7 +13,7 @@ module.exports = {
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://shreyasgupta.me`,
     // Used for SEO
-    siteDescription: `Personal website of Shreyas Gupta`,
+    siteDescription: `Personal blog and website of Shreyas Gupta`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
@@ -95,7 +95,7 @@ module.exports = {
       options: {
         name: `Shreyas Gupta`,
         short_name: `Shreyas Gupta`,
-        description: `Personal website of Shreyas Gupta.`,
+        description: `Personal blog and website of Shreyas Gupta.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
