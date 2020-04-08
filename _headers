@@ -78,15 +78,6 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-48f3f22fecb414c271a2.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/hackathons-gehealthcare-and-more/page-data.json>; rel=preload; as=fetch; crossorigin
-/contact
-  Link: </webpack-runtime-b0cd813c82615ae25842.js>; rel=preload; as=script
-  Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
-  Link: </app-a03d87fdbbd5bc3ad7dd.js>; rel=preload; as=script
-  Link: </styles-ad39f72f0b5e5c66a502.js>; rel=preload; as=script
-  Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
-  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-0b1ec8efdf12f0349889.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/contact/page-data.json>; rel=preload; as=fetch; crossorigin
 /about
   Link: </webpack-runtime-b0cd813c82615ae25842.js>; rel=preload; as=script
   Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
@@ -96,6 +87,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-0b1ec8efdf12f0349889.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
+/contact
+  Link: </webpack-runtime-b0cd813c82615ae25842.js>; rel=preload; as=script
+  Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
+  Link: </app-a03d87fdbbd5bc3ad7dd.js>; rel=preload; as=script
+  Link: </styles-ad39f72f0b5e5c66a502.js>; rel=preload; as=script
+  Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-0b1ec8efdf12f0349889.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/contact/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/coronavirus
   Link: </webpack-runtime-b0cd813c82615ae25842.js>; rel=preload; as=script
   Link: </commons-a4c725e4a2253f6e6ac9.js>; rel=preload; as=script
