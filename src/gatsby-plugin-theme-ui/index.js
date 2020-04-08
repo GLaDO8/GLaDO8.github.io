@@ -73,7 +73,7 @@ export default {
       mb: 0,
     },
     p: {
-      fontSize: [2, 2],
+      fontSize: [1, 2],
       letterSpacing: `-0.003em`,
       lineHeight: `body`,
       "--baseline-multiplier": 0.179,
