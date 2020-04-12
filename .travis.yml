@@ -21,6 +21,8 @@ script:
   - gatsby build
 
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
@@ -30,5 +32,3 @@ deploy:
   verbose: true
   on:
     branch: develop
-  edge:
-    branch: v1.8.47
