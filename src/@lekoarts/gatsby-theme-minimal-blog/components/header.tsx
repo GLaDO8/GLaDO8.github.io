@@ -68,6 +68,7 @@ const Header = () => {
             href="https://www.behance.net/ShreyasGupta"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="behance link"
           >
             <Behance class={socialStyles.svgs} />
           </a>
@@ -75,6 +76,7 @@ const Header = () => {
             href="https://www.instagram.com/awwmaaigawwd/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="instagram link"
           >
             <Instagram class={socialStyles.svgs} />
           </a>
@@ -82,6 +84,7 @@ const Header = () => {
             href="https://twitter.com/awwmaaigawwd"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="twitter link"
           >
             <Twitter class={socialStyles.svgs} />
           </a>
@@ -89,6 +92,7 @@ const Header = () => {
             href="https://www.linkedin.com/in/shreyas-gupta/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="linkedin link"
           >
             <Linkedin class={socialStyles.svgs} />
           </a>
@@ -96,6 +100,7 @@ const Header = () => {
             href="https://github.com/GLaDO8"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="github link"
           >
             <Github class={socialStyles.svgs} />
           </a>
