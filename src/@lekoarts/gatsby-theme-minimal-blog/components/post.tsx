@@ -53,13 +53,7 @@ const Post = ({ data: { post } }: PostProps) => (
       {` — `}
       <span>{post.timeToRead} min read</span>
     </p>
-    <img src={post.banner.childImageSharp.resize.src} sx={{
-      position: `relative`,
-      maxHeight: `1200px`,
-      width: `100%`,
-      overflow: `hidden`,
-      margin: `0 auto`
-    }}></img>
+    <img src={post.banner.childImageSharp.resize.src} />
     <MDXRenderer>{post.body}</MDXRenderer>
   </Layout>
 )
