@@ -30,3 +30,5 @@ deploy:
   verbose: true
   on:
     branch: develop
+  edge:
+    branch: v1.8.47
