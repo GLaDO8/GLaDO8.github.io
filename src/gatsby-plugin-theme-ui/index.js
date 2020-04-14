@@ -40,6 +40,7 @@ const headingStyles = {
 
 export default {
   ...tailwind,
+  initialColorMode: `dark`,
   useCustomProperties: true,
   colors: {
     ...tailwind.colors,
@@ -50,6 +51,18 @@ export default {
     background: `#131720`,
     heading: tailwind.colors.white,
     divide: tailwind.colors.gray[8],
+    modes: {
+      dark: {
+        text: tailwind.colors.gray[4],
+        primary: tailwind.colors.purple[5],
+        secondary: `#7f8ea3`,
+        toggleIcon: tailwind.colors.gray[4],
+        background: `#131720`,
+        heading: tailwind.colors.white,
+        divide: tailwind.colors.gray[8],
+        muted: tailwind.colors.gray[8],
+      },
+    },
   },
   fonts: {
     ...tailwind.fonts,
@@ -96,6 +109,10 @@ export default {
         "--baseline-multiplier": 0.179,
         "--x-height-multiplier": 0.35,
       },
+    },
+    Container: {
+      p: 3,
+      maxWidth: [900],
     },
     // ...headingStyles,
     // Container: {
