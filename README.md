@@ -1,5 +1,5 @@
 # Code for personal website
-[![Build Status](https://travis-ci.org/GLaDO8/GLaDO8.github.io.svg?branch=develop)](https://travis-ci.org/GLaDO8/GLaDO8.github.io)
+[![Build Status](https://travis-ci.com/GLaDO8/GLaDO8.github.io.svg?branch=develop)](https://travis-ci.com/GLaDO8/GLaDO8.github.io)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 This repository contains all code and changes I've made to the blog over the last couple of months. 
