@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{c95Q:function(o,n,c){},"hT+i":function(o,n,c){o.exports={icon_tray:"social-module--icon_tray--PZWtB",svg:"social-module--svg--19j2f"}}}]);
+//# sourceMappingURL=styles-bc07a9f9c0b4c9c254e5.js.map
