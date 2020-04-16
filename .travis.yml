@@ -18,7 +18,7 @@ git:
   depth: 3
 
 script:
-  - npm build
+  - npm run deploy
 deploy:
   provider: pages
   skip-cleanup: true
