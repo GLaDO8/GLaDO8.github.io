@@ -20,16 +20,12 @@ cache:
 git:
   depth: 3
 
-# script:
-#   - gatsby build
-
 deploy:
   provider: script
   cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: public
   target_branch: master
-  verbose: true
   script: npm install && npm run deploy
   on:
     branch: develop
