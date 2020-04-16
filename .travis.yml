@@ -1,7 +1,5 @@
 language: node_js
 
-before_script: npm install -g gatsby-cli
-
 node_js:
   - "stable"
   - "lts/*"
@@ -19,12 +17,14 @@ cache:
 git:
   depth: 3
 
+script:
+  - npm build
 deploy:
-  provider: script
-  cleanup: true
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
   github-token: $GITHUB_TOKEN
-  local_dir: public
-  target_branch: master
-  script: npm install && npm run deploy
+  local-dir: public
+  target-branch: master
   on:
     branch: develop
