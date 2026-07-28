@@ -16,8 +16,8 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^2.3.9",
-    "gatsby": "^4.25.7",
+    "@lekoarts/gatsby-theme-minimal-blog": "^6.2.6",
+    "gatsby": "^5.16.1",
     "gatsby-plugin-google-analytics": "^2.3.4",
     "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-netlify": "^2.3.5",
